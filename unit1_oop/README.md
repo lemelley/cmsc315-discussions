@@ -75,6 +75,18 @@ I have smart devices in my home already and one that I keep having problems with
 
 ## How to Run
 
+## Discussion Board Reflection
+
+In the assignment, I learned how a child class reuses a parent through super(), how namespaces work, and the differences between a shallow copy and a deep copy. In my program, I built a smart home with a SmartDevice parent and a SmartLock child that locks out after three wrong PINs. The parent holds the shared attributes; the child inherits them and adds its own unlock().
+
+My main challenge was small mistakes, partly because I'm transitioning from Java, and I feel like I just learned to use super in Java, so I was surprised to see it in Python. I kept running into problems where I had typos and missing commas, but after the constant errors, I managed  to get it right
+
+Compared to procedural programming, where I'd send data to different functions, OOP keeps data and the code that uses that data in a single object. For example, the lock checks its own PIN and attempt counts, so I didn't have to repeat that logic whenever I needed to recall it.
+
+This helps maintainability and reusability because I can change describe() in one place. Setting up classes can be tedious at first (overhead), but it pays off down the road with future projects where objects share the same traits. 
+
+
 ```
 python unit1_discussion.py
 ```
+
