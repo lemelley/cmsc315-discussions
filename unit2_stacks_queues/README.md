@@ -74,13 +74,12 @@ python unit2_discussion.py
 ## Discussion Board Reflection
 
 While I already knew what LIFO and FIFO both were in theory, putting it into use was very interesting. I had previously
-used pop and append, but hadn't used deque or popleft previously. This exercise helped me understand how pop and append
+used pop and append, but hadn't used deque or popleft. This exercise helped me understand how pop and append
 connect to LIFO and deque and popleft connect to FIFO. When putting the program together, I kept running into problems 
 with syntax mistakes (missing colons, incorrect variable names) and selecting where to place my try blocks. The syntax
 errors were pretty straightforward because IntelliJ kept pointing them out. The try blocks were more of a trial/error 
 as well as doing some research into where these blocks should be placed. In a stack, the last item that is entered is 
-the more important item because it follows the LIFO structure which removes the last item that was added. This can be 
-easily visualized by an undo button (and its corresponding history tracking method). History is tracked and when called, 
-the last item that was added is the item that is removed. A queue differs from this in that the first item that is added
-to a queue is the first item that gets removed when called. Thinking about it visually, a printer operates by receiving
-jobs and printing them in the order they are received, not by being prioritized by which item was last added.
+the first one removed (following LIFO). This can be easily visualized by an undo button (and its corresponding history
+tracking method). A queue differs from this in that the first item that is added to a queue is the first item that gets 
+removed when called. Thinking about it visually, a printer operates by receiving jobs and printing them in the order 
+they are received, not by being prioritized by which item was last added.
